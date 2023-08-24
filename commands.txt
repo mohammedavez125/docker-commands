@@ -3,3 +3,7 @@ BUILD DOCKER IMAGE:
 
 CHANGE IMAGE TAG:
   docker tag <FROM> <TO>
+
+NETWORK:
+  CREATE:  docker network create jenkins
+  LS:  docker network ls
