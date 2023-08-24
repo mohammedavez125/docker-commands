@@ -1,0 +1,5 @@
+BUILD DOCKER IMAGE:
+  docker build -t <imagename> <path>
+
+CHANGE IMAGE TAG:
+  docker tag <FROM> <TO>
