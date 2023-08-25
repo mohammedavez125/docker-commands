@@ -7,3 +7,6 @@ CHANGE IMAGE TAG:
 NETWORK:
   CREATE:  docker network create jenkins
   LS:  docker network ls
+
+Open terminal in container:
+  docker exec -it <container_name> bash
